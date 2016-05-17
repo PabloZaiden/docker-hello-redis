@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  redisdb:
+    image: redis
+
+  hello-redis:
+    build: .
+    depends_on:
+      - redisdb
