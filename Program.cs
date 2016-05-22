@@ -17,7 +17,7 @@ namespace ConsoleApplication
         
         private static async Task MainAsync(string[] args) {
             try {
-                var server = "localhost";
+                var server = "redisdb";
                 
                 IPAddress ip = null;
                 try {
