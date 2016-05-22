@@ -4,7 +4,7 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "StackExchange.Redis.CoreFx": "1.0.0-alpha1",
+    "StackExchange.Redis": "1.1.604-alpha",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0-rc2-3002702"
